@@ -1,11 +1,15 @@
 {
   "name": "cbf-meetup-api",
   "version": "1.0.0",
-  "description": "api reading and writing to meetup api",
+  "description": "server to read and write to meetup api",
   "main": "index.js",
   "scripts": {
     "test": "yarn test"
   },
   "author": "https://github.com/SunshineEleda",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "serverless": "^1.58.0",
+    "serverless-offline": "^5.12.1"
+  }
 }
