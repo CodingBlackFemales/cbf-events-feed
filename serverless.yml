@@ -8,6 +8,11 @@ custom:
   region: eu-west-1
   stage: dev
 
+package:
+  exclude:
+    - node_modules/puppeteer/.local-chromium/**
+  excludeDevDependencies: true
+
 functions:
   hello:
     handler: handler.hello

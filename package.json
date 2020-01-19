@@ -9,7 +9,15 @@
   "author": "https://github.com/SunshineEleda",
   "license": "ISC",
   "dependencies": {
+    "@serverless-chrome/lambda": "^1.0.0-55",
+    "aws-lambda": "^1.0.5",
+    "chrome-launcher": "^0.12.0",
+    "puppeteer-core": "^2.0.0",
+    "rss-parser": "^3.7.3",
     "serverless": "^1.58.0",
-    "serverless-offline": "^5.12.1"
+    "serverless-offline": "^5.12.1",
+    "serverless-plugin-chrome": "^1.0.0-55.1",
+    "superagent": "^5.2.1",
+    "uuid": "^3.4.0"
   }
 }
